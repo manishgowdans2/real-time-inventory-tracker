@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\realtimeinventorytracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\realtimeinventorytracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\services\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\services\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\migrations\\20250719150211_addproductentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\migrations\\20250719150211_addproductentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.api\\realtimeinventorytracker.api\\databasecontext\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10918F0-969F-4D28-AA0A-7B6220FDDA2F}|RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.csproj|solutionrelative:realtimeinventorytracker.api\\databasecontext\\inventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\Product\\IProductService.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Services\\Product\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\Product\\IProductService.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Services\\Product\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:28:56.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\Product\\ProductService.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Services\\Product\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\Product\\ProductService.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Services\\Product\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:28:47.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Controllers\\Product.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Controllers\\Product.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Controllers\\Product.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Controllers\\Product.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwB8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:44:30.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250719150211_AddProductEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Migrations\\20250719150211_AddProductEntity.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Migrations\\20250719150211_AddProductEntity.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Migrations\\20250719150211_AddProductEntity.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Migrations\\20250719150211_AddProductEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:02:11.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RealTimeInventoryTracker.API.http",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.http",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.http",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.http",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-19T14:58:15.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Program.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Program.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:56:22.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Entities\\Product.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:52:55.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\ServiceCollection.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\Services\\ServiceCollection.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\Services\\ServiceCollection.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\Services\\ServiceCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:29:22.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\appsettings.json",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T14:53:09.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\DatabaseContext\\InventoryContext.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.API\\DatabaseContext\\InventoryContext.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.API\\RealTimeInventoryTracker.API\\DatabaseContext\\InventoryContext.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.API\\DatabaseContext\\InventoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:49:45.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@RealTimeInventoryTracker.API_HostAddress = http://localhost:5278
+
+POST {{RealTimeInventoryTracker.API_HostAddress}}/api/product
+Accept: application/json
+
+###

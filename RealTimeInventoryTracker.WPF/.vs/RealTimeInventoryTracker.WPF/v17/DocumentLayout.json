@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\updateproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\updateproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\addproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\deleteproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\deleteproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\deleteproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\deleteproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\components\\product\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\components\\product\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|c:\\users\\manish\\source\\repos\\realtimeinventorytracker.wpf\\realtimeinventorytracker.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7852887C-30C7-4782-ADBD-987A352264D6}|RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF.csproj|solutionrelative:realtimeinventorytracker.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\UpdateProduct.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\UpdateProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\UpdateProduct.xaml.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\UpdateProduct.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:30:38.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:28:31.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\AddProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T15:28:22.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T15:21:56.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\Dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\Dashboard.xaml.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\Dashboard.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:21:09.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:20:58.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T15:20:55.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml.cs",
+              "RelativeDocumentMoniker": "RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\Manish\\source\\repos\\RealTimeInventoryTracker.WPF\\RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml.cs",
+              "RelativeToolTip": "RealTimeInventoryTracker.WPF\\Components\\Product\\DeleteProduct.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:20:13.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

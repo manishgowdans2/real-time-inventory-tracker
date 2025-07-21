@@ -1,0 +1,89 @@
+﻿<Window x:Class="RealTimeInventoryTracker.WPF.Components.Product.AddProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealTimeInventoryTracker.WPF.Components.Product"
+        xmlns:helpers="clr-namespace:RealTimeInventoryTracker.WPF.Helpers"
+        xmlns:userControls="clr-namespace:RealTimeInventoryTracker.WPF.UserControls"
+        mc:Ignorable="d"
+        Title="Add Product"
+        Height="450"
+Width="700"
+Background="#f9f9f9"
+WindowStartupLocation="CenterScreen">
+    <Grid Margin="30" 
+          Background="#ffffff" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Text="⬅Exit"
+            FontSize="15"
+            x:Name="Exit"
+            />
+        <!-- Title -->
+        <TextBlock Grid.Row="0"
+                   Text="📦 Product Inventory Dashboard"
+                   FontSize="26"
+                   FontWeight="Bold"
+                   Foreground="#2c3e50"
+                   Margin="0 0 0 20"
+                   HorizontalAlignment="Center" />
+
+        <!-- Section Title -->
+        <TextBlock Grid.Row="1"
+                   Text="Add a New Product"
+                   FontSize="28"
+                   FontWeight="SemiBold"
+                   Foreground="#34495e"
+                   Margin="0 0 0 0"
+                   HorizontalAlignment="Center" />
+
+
+        <!-- Input Form -->
+        <StackPanel Grid.Row="2"
+                    Orientation="Vertical"
+                    Width="300"
+                    Margin="0 20 0 0"
+                    HorizontalAlignment="Center">
+
+            <TextBlock
+                   Text="Product Name"
+                FontSize="15"
+                />
+            <TextBox x:Name="ProductNameTextBox"
+                     Height="35"
+                     FontSize="14"
+                     Padding="8"
+                     Margin="0 10 0 0"
+                     helpers:TextBoxHelper.Placeholder="Enter Product Name"
+                     BorderBrush="#ccc"
+                     BorderThickness="1" />
+
+            <TextBlock 
+                   Text="Product Quantity"
+                FontSize="15"
+                Margin="0 10 0 0"
+                />
+            <TextBox x:Name="QuantityTextBox"
+                     Height="35"
+                     FontSize="14"
+                     Padding="8"
+                     Margin="0 10 0 10"
+                     BorderBrush="#ccc"
+                     helpers:TextBoxHelper.Placeholder="Enter Quantity(Eg:1,2,3..)"
+                     BorderThickness="1" />
+
+            <userControls:ButtonControl
+                      ButtonContent="Add Product"
+                      x:Name="AddProductButton"
+                         />
+        </StackPanel>
+    </Grid>
+</Window>
+
