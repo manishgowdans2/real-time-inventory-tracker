@@ -1,3 +1,4 @@
+
 services:
 
   zookeeper:
@@ -9,6 +10,7 @@ services:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
 
+# also for broker
   kafka:
     image: confluentinc/cp-kafka:7.5.0
     container_name: kafka
@@ -36,9 +38,10 @@ services:
     environment:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: PLAINTEXT://kafka:29092
+      SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
 
   kafka-connect:
-    image: debezium/connect:2.5  # Debezium's image (compatible with Kafka 3.x / Confluent 7.x)
+    image: quay.io/debezium/connect:2.5 
     container_name: kafka-connect
     depends_on:
       - kafka
@@ -58,7 +61,7 @@ services:
       REST_ADVERTISED_HOST_NAME: kafka-connect
       PLUGIN_PATH: /kafka/connect
     volumes:
-      - ./connectors:/kafka/connect  # You can still add custom JARs here if needed
+      - ./kafka_connect:/kafka/connect  # You can still add custom JARs here if needed
 
   postgres:
     image: postgres:latest
@@ -79,3 +82,16 @@ services:
     environment:
       KAFKA_BROKERS: kafka:29092
       KAFKA_SCHEMA_REGISTRY: http://schema-registry:8081
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    depends_on:
+      - postgres
+    ports:
+      - "5050:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - ./pgadmin_data:/var/lib/pgadmin
