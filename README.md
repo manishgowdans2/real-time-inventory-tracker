@@ -150,7 +150,7 @@ Main Page
 
 Dashboard Page -> eg: Update Products Page
 
-![Dashboard](assest/dashbaord.png) -> ![example](assest/update.png)
+![Dashboard](assets/dashboard.png) -> ![example](assets/update.png)
 
 Real Time Tracker Page
 
@@ -158,7 +158,7 @@ Real Time Tracker Page
 
 Kafka Topics of published Data
 
-![kafka](assest/kafka-topic.png)
+![kafka](assets/kafka-topic.png)
 
 ---
 
