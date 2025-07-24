@@ -11,6 +11,8 @@
 
 A full-stack real-time inventory management system built using **.NET**, **WPF**, **PostgreSQL**, **Kafka**, and **Debezium (CDC)**. This application allows multiple users to perform CRUD operations on inventory items and see live updates across all connected clients through a reactive backend.
 
+👉 [Demo Video](https://drive.google.com/file/d/14rBUhHzBNaQYR1BSTbW76L6c5dxMnqBv/view?usp=sharing)
+
 ---
 
 ## 📚 Table of Contents
@@ -241,4 +243,3 @@ Feel free to submit issues or pull requests. Contributions are welcome!
 
 ---
 
-## ⭐ Star this project if you find it useful!
