@@ -180,9 +180,6 @@ Observe the Debezium CDC events flowing through Kafka topics:
 
 ---
 
-
----
-
 ## ⚙️ How It Works
 
 ### 🔁 User-Initiated CRUD Flow
