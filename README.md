@@ -1,12 +1,11 @@
 # 🧾 Real-Time Inventory Tracker 🚀✨
 
-[![.NET](https://img.shields.io/badge/.NET-6.0-blueviolet?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![WPF](https://img.shields.io/badge/WPF-.NET-blue?logo=windows)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
+[![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Kafka](https://img.shields.io/badge/Kafka-Event%20Streaming-231f20?logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
 [![Debezium](https://img.shields.io/badge/Debezium-CDC-lightgrey?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkYzMzMzIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2IDJDOS40MiAyIDQgNy40MiA0IDE0czUuNDIgMTIgMTIgMTIgMTItNS40MiAxMi0xMi01LjQyLTEyLTEyLTEyeiIvPjwvc3ZnPg==)](https://debezium.io/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -71,10 +70,8 @@ The system follows **event-driven architecture** with two primary flows:
 ├── docker-compose.yml
 ├── .gitignore
 ├── README.md
-└── src
-    ├── Inventory.Api/           # ASP.NET Core API + SignalR
-    ├── Inventory.Consumer/      # Kafka Consumer Worker Service
-    └── Inventory.WpfClient/     # WPF Desktop Application
+└── RealTimeInventoryTracker.API/    # ASP.NET Core API + SignalR + Kafka Consumer Worker Service
+└── RealTimeInventoryTracker.WPF/    # WPF Desktop Application
 ```
 
 ---
@@ -102,7 +99,7 @@ cd your-repository-name
 docker-compose up -d
 ```
 
-Wait ~1 minute for services to initialize.
+Wait ~3 minute for services to initialize.
 
 ### 3️⃣ Configure Debezium Connector
 
@@ -129,25 +126,39 @@ This sets up Debezium to monitor the `inventory_items` table and stream changes 
 ### 4️⃣ Run Backend Services
 
 ```bash
-# Run API with SignalR
-cd src/Inventory.Api
-dotnet run
-```
-
-```bash
-# Run Kafka Consumer
-cd src/Inventory.Consumer
+# Run API with SignalR & Kafka Consumer
+cd RealTimeInventoryTracker.API/
 dotnet run
 ```
 
 ### 5️⃣ Launch WPF Client
 
 ```bash
-cd src/Inventory.WpfClient
+cd RealTimeInventoryTracker.WPF/
 dotnet run
 ```
 
-> 🪟 Open multiple WPF clients to test real-time sync in action!
+> 🪟 Open multiple WPF clients to test real-time sync in action! 
+
+---
+
+## 📸 Screenshots
+
+Main Page
+
+![Main Page](assets/welcome.png)
+
+Dashboard Page -> eg: Update Products Page
+
+![Dashboard](assest/dashbaord.png) -> ![example](assest/update.png)
+
+Real Time Tracker Page
+
+![Tracker](assets/tracker.png)
+
+Kafka Topics of published Data
+
+![kafka](assest/kafka-topic.png)
 
 ---
 
@@ -171,15 +182,13 @@ dotnet run
 
 ## 🔌 API Endpoints
 
-| Method | Endpoint              | Description                  |
-|--------|-----------------------|------------------------------|
-| GET    | `/api/inventory`      | Get all inventory items      |
-| GET    | `/api/inventory/{id}` | Get item by ID               |
-| POST   | `/api/inventory`      | Create a new item            |
-| PUT    | `/api/inventory/{id}` | Update an item               |
-| DELETE | `/api/inventory/{id}` | Delete an item               |
+[![Swagger](https://img.shields.io/badge/API%20Docs-Swagger-green?logo=swagger)](http://localhost:5000/swagger)
 
-SignalR Hub: `/inventoryHub`
+Refer to Swagger Documentation for Rest APIs which opens when the Backend services are ran.
+
+SignalR Hub: `/inventoryHub` 
+
+`NOTE`: If the project is stuck on consumer, please add a message to the connected topic via database to consume and resume the project.
 
 ---
 
@@ -189,7 +198,7 @@ SignalR Hub: `/inventoryHub`
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Host=localhost;Port=5432;Database=inventory_db;Username=postgres;Password=postgres"
+  "DefaultConnection": "Host=localhost;Port=5432;Database=;Username=;Password="
 }
 ```
 
