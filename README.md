@@ -142,23 +142,44 @@ dotnet run
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-Main Page
+Take a look at the core interfaces and backend visuals of the Real-Time Inventory Tracker in action:
+
+---
+
+### 🏠 Main Page
 
 ![Main Page](assets/welcome.png)
 
-Dashboard Page -> eg: Update Products Page
+---
 
-![Dashboard](assets/dashboard.png) -> ![example](assets/update.png)
+### 🔄 Real-Time Tracker View
 
-Real Time Tracker Page
+Monitor live inventory updates across clients:
 
-![Tracker](assets/tracker.png)
+![Real-Time Tracker](assets/tracker.png)
 
-Kafka Topics of published Data
+---
 
-![kafka](assets/kafka-topic.png)
+### 📊 Dashboard – Update Products
+
+Manage inventory with CRUD operations:
+
+| Dashboard | Update Product |
+|-----------|----------------|
+| ![Dashboard](assets/dashboard.png) | ![Update](assets/update.png) |
+
+---
+
+### 📡 Kafka Topics (Published Events)
+
+Observe the Debezium CDC events flowing through Kafka topics:
+
+![Kafka Topics](assets/kafka-topic.png)
+
+---
+
 
 ---
 
