@@ -57,7 +57,7 @@ namespace RealTimeInventoryTracker.WPF.Components.Product
 
                 if (response.IsSuccessStatusCode)
                 {
-                    MessageBox.Show("Product added successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Product deleted successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                     ProductIdTextBox.Clear();
                 }
                 else if(response.StatusCode == System.Net.HttpStatusCode.NotFound)
@@ -67,7 +67,7 @@ namespace RealTimeInventoryTracker.WPF.Components.Product
                 else
                 {
                     string errorMessage = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show($"Error adding product: {errorMessage}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"Error deleting product: {errorMessage}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             catch (Exception error)

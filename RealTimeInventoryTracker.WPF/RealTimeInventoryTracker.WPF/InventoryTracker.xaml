@@ -1,0 +1,76 @@
+﻿<Window x:Class="RealTimeInventoryTracker.WPF.InventoryTracker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealTimeInventoryTracker.WPF"
+        mc:Ignorable="d"
+        Title="Real-Time Inventory Tracking" 
+        Height="400"
+        Width="700"
+        Background="#f9f9f9" WindowStartupLocation="CenterScreen"
+         >
+    <Window.DataContext>
+        <local:InventoryViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header Row -->
+        <Grid Grid.Row="0" Margin="0 0 0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left-Aligned Text -->
+            <TextBlock Text="⬅Exit"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       FontSize="18"
+                       FontWeight="Bold"
+                       Foreground="#333"
+                       x:Name="Exit"
+                       />
+
+            <!-- Center-Aligned Text -->
+            <TextBlock Text="📦 Real Time Product Inventory Tracker"
+                       Grid.Column="1"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Foreground="#222"/>
+        </Grid>
+        <DataGrid
+            Grid.Row="1"
+            ItemsSource="{Binding Products}"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            FontSize="16"
+            FontWeight="SemiBold"
+            
+            >
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="Product ID"
+                    Binding="{Binding Id}"
+                    Width="120"/>
+                <DataGridTextColumn
+                    Header="Product Name"
+                    Binding="{Binding Name}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Quantity"
+                    Binding="{Binding Quantity}"
+                    Width="120"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -25,7 +25,7 @@ namespace RealTimeInventoryTracker.WPF
         {
             InitializeComponent();
 
-            //EnterButton.ButtonClicked += EnterButtonClicked;
+            EnterButton.ButtonClicked += EnterButtonClicked;
             ManageProducts.MouseLeftButtonDown += ManageProductsMouseClicked;
         }
 
@@ -41,6 +41,12 @@ namespace RealTimeInventoryTracker.WPF
             var nextWindow = new Dashboard();
             nextWindow.Show();
             this.Close();
+        }
+
+        private void EnterButtonClicked(object sender, EventArgs e)
+        {
+            var nextWindow = new InventoryTracker();
+            nextWindow.Show();
         }
     }
 }
