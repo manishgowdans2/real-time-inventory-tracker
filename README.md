@@ -19,6 +19,7 @@ A full-stack real-time inventory management system built using **.NET**, **WPF**
 - [🧠 System Architecture](#-system-architecture)
 - [🧰 Tech Stack](#-tech-stack)
 - [🗂️ Project Structure](#-project-structure)
+- [📸 Project Screenshots](#-project-screenshots)
 - [✅ Prerequisites](#-prerequisites)
 - [🚀 Getting Started](#-getting-started)
 - [⚙️ How It Works](#-how-it-works)
