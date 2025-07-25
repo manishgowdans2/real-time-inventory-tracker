@@ -1,4 +1,4 @@
-# 🧾 Real-Time Inventory Tracker 🚀✨
+# 🧾 Real-Time Inventory Tracker
 
 [![WPF](https://img.shields.io/badge/WPF-.NET-blue?logo=windows)](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
 [![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
@@ -11,7 +11,7 @@
 
 A full-stack real-time inventory management system built using **.NET**, **WPF**, **PostgreSQL**, **Kafka**, and **Debezium (CDC)**. This application allows multiple users to perform CRUD operations on inventory items and see live updates across all connected clients through a reactive backend.
 
-👉 [Demo Video](https://drive.google.com/file/d/14rBUhHzBNaQYR1BSTbW76L6c5dxMnqBv/view?usp=sharing)
+👉 [Demo Video](https://drive.google.com/file/d/1GdgBDQlDdX_XRFX8ud9gZb3AmbSXlmF3/view?usp=sharing)
 
 ---
 
